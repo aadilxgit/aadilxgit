@@ -28,7 +28,9 @@
         "bannerUrl": ""
       }
     ],
-    "moreRepos": ["BlogVerse.github.io"]
+    "moreRepos": [
+      "BlogVerse.github.io"
+    ]
   },
   "projects": {
     "bannersEnabled": false,
@@ -39,16 +41,28 @@
   "profile": {
     "name": "Aadil Ali",
     "handle": "@aadilxgit",
-    "role": "programmer",
-    "intro": "Building RAG pipelines and Linux server tooling.",
-    "status": "shipping small tools",
-    "focus": "RAG, shell, Linux",
+    "role": "full-stack developer",
+    "intro": "Full-stack apps, marketplaces, automation and AI pipelines.",
+    "status": "shipping",
+    "focus": "full-stack, AI",
     "state": "active",
     "links": [
-      { "label": "github", "url": "https://github.com/aadilxgit" },
-      { "label": "repos", "url": "https://github.com/aadilxgit?tab=repositories" },
-      { "label": "ytrag", "url": "https://github.com/aadilxgit/ytrag-v1" },
-      { "label": "luks", "url": "https://github.com/aadilxgit/luksreinstalled" }
+      {
+        "label": "github",
+        "url": "https://github.com/aadilxgit"
+      },
+      {
+        "label": "repos",
+        "url": "https://github.com/aadilxgit?tab=repositories"
+      },
+      {
+        "label": "ytrag",
+        "url": "https://github.com/aadilxgit/ytrag-v1"
+      },
+      {
+        "label": "luks",
+        "url": "https://github.com/aadilxgit/luksreinstalled"
+      }
     ]
   },
   "theme": {
@@ -68,7 +82,14 @@
       "warn": "#a0a0a0",
       "fail": "#e0e0e0",
       "languageFallback": "#8a8a8a",
-      "auroraPalette": ["#0b0b0b", "#1c1c1c", "#2e2e2e", "#454545", "#6a6a6a", "#9a9a9a"]
+      "auroraPalette": [
+        "#0b0b0b",
+        "#1c1c1c",
+        "#2e2e2e",
+        "#454545",
+        "#6a6a6a",
+        "#9a9a9a"
+      ]
     },
     "light": {
       "page": "#f5f5f5",
@@ -86,10 +107,34 @@
       "warn": "#656565",
       "fail": "#222222",
       "languageFallback": "#757575",
-      "auroraPalette": ["#f5f5f5", "#e6e6e6", "#d2d2d2", "#bcbcbc", "#a0a0a0", "#808080"]
+      "auroraPalette": [
+        "#f5f5f5",
+        "#e6e6e6",
+        "#d2d2d2",
+        "#bcbcbc",
+        "#a0a0a0",
+        "#808080"
+      ]
     }
   },
-  "motion": { "enabled": true, "speed": 1, "auroraDuration": 9, "auroraFps": 30, "pendingDuration": 0.8 },
-  "effects": { "dither": true, "ditherScale": 4, "ditherStrength": 0.82, "animatedAurora": true, "pendingMark": true },
-  "layout": { "width": 880, "projectColumns": 2, "showStats": true, "showUpdatedAt": true }
+  "motion": {
+    "enabled": true,
+    "speed": 1,
+    "auroraDuration": 9,
+    "auroraFps": 30,
+    "pendingDuration": 0.8
+  },
+  "effects": {
+    "dither": true,
+    "ditherScale": 4,
+    "ditherStrength": 0.82,
+    "animatedAurora": true,
+    "pendingMark": true
+  },
+  "layout": {
+    "width": 880,
+    "projectColumns": 2,
+    "showStats": true,
+    "showUpdatedAt": true
+  }
 }
