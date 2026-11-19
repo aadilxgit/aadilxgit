@@ -1,0 +1,95 @@
+{
+  "$schema": "./profile.config.schema.json",
+  "github": {
+    "username": "aadilxgit",
+    "featuredRepos": [
+      {
+        "repo": "ytrag-v1",
+        "solidButton": true,
+        "ctaLabel": "View source",
+        "ctaArrow": null,
+        "showRepoPath": false,
+        "projectUrl": "",
+        "showBanner": false,
+        "autoOgImage": false,
+        "ogSourceUrl": "",
+        "bannerUrl": ""
+      },
+      {
+        "repo": "luksreinstalled",
+        "solidButton": true,
+        "ctaLabel": "View source",
+        "ctaArrow": null,
+        "showRepoPath": false,
+        "projectUrl": "",
+        "showBanner": false,
+        "autoOgImage": false,
+        "ogSourceUrl": "",
+        "bannerUrl": ""
+      }
+    ],
+    "moreRepos": ["BlogVerse.github.io"]
+  },
+  "projects": {
+    "bannersEnabled": false,
+    "autoOgImages": false,
+    "bannerHeight": 220,
+    "bannerFit": "contain"
+  },
+  "profile": {
+    "name": "Aadil Ali",
+    "handle": "@aadilxgit",
+    "role": "programmer",
+    "intro": "Building RAG pipelines and Linux server tooling.",
+    "status": "shipping small tools",
+    "focus": "RAG, shell, Linux",
+    "state": "active",
+    "links": [
+      { "label": "github", "url": "https://github.com/aadilxgit" },
+      { "label": "repos", "url": "https://github.com/aadilxgit?tab=repositories" },
+      { "label": "ytrag", "url": "https://github.com/aadilxgit/ytrag-v1" },
+      { "label": "luks", "url": "https://github.com/aadilxgit/luksreinstalled" }
+    ]
+  },
+  "theme": {
+    "dark": {
+      "page": "#0b0b0b",
+      "panel": "#141414",
+      "well": "#1b1b1b",
+      "text1": "#f5f5f5",
+      "text2": "#c4c4c4",
+      "text3": "#8a8a8a",
+      "line": "#2e2e2e",
+      "lineFaint": "#222222",
+      "accent": "#e8e8e8",
+      "accentText": "#ffffff",
+      "selected": "#262626",
+      "ok": "#c4c4c4",
+      "warn": "#a0a0a0",
+      "fail": "#e0e0e0",
+      "languageFallback": "#8a8a8a",
+      "auroraPalette": ["#0b0b0b", "#1c1c1c", "#2e2e2e", "#454545", "#6a6a6a", "#9a9a9a"]
+    },
+    "light": {
+      "page": "#f5f5f5",
+      "panel": "#ffffff",
+      "well": "#ebebeb",
+      "text1": "#111111",
+      "text2": "#444444",
+      "text3": "#757575",
+      "line": "#cfcfcf",
+      "lineFaint": "#e2e2e2",
+      "accent": "#1a1a1a",
+      "accentText": "#000000",
+      "selected": "#e0e0e0",
+      "ok": "#444444",
+      "warn": "#656565",
+      "fail": "#222222",
+      "languageFallback": "#757575",
+      "auroraPalette": ["#f5f5f5", "#e6e6e6", "#d2d2d2", "#bcbcbc", "#a0a0a0", "#808080"]
+    }
+  },
+  "motion": { "enabled": true, "speed": 1, "auroraDuration": 9, "auroraFps": 30, "pendingDuration": 0.8 },
+  "effects": { "dither": true, "ditherScale": 4, "ditherStrength": 0.82, "animatedAurora": true, "pendingMark": true },
+  "layout": { "width": 880, "projectColumns": 2, "showStats": true, "showUpdatedAt": true }
+}
